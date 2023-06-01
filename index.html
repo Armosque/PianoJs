@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Piano - App</title>
+	<link rel="stylesheet" href="styles.css">
+	<link href="https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div class="titleContainer">
+		<div class="title">
+			<img class='img1' src="s1.jpg" alt="Teclas">
+			<h1>Symphony</h1>
+		</div>
+	</div>
+	
+	
+	<div class="contenedor">
+		<div class="piano">
+			<button data-note="Do" data-key="z" class="tecla"></button>
+			<button class="teclaBlack n1"></button>
+			<button data-note="Re" data-key="x" class="tecla"></button>
+			<button class="teclaBlack n2"></button>
+			<button data-note="Mi" data-key="c" class="tecla"></button>
+			<button data-note="Fa" data-key="v" class="tecla"></button>
+			<button class="teclaBlack n3"></button>
+			<button data-note="Sol" data-key="b" class="tecla"></button>
+			<button class="teclaBlack n4"></button>
+			<button data-note="La" data-key="n" class="tecla"></button>
+			<button class="teclaBlack n5"></button>
+			<button data-note="Si" data-key="m" class="tecla"></button>
+		</div>
+	</div>
+	<div class="subTitle">
+		<h1>También puedes usar el Teclado</h1>
+		<img src="teclasB.jpeg" alt="Teclas">
+	</div>
+
+	<audio src="sonido-notas/Do.wav" id="audioDo"></audio>
+	<audio src="sonido-notas/Re.wav" id="audioRe"></audio>
+	<audio src="sonido-notas/MI.wav" id="audioMi"></audio>
+	<audio src="sonido-notas/FA.wav" id="audioFa"></audio>
+	<audio src="sonido-notas/Sol.wav" id="audioSol"></audio>
+	<audio src="sonido-notas/La.wav" id="audioLa"></audio>
+	<audio src="sonido-notas/Si.wav" id="audioSi"></audio>
+	
+
+	<script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,84 @@
+body{
+	background-color: rgb(35, 110, 110);
+	justify-content: center;
+	margin: 100px;
+	color: aliceblue;
+}
+.contenedor{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 90%;
+
+}
+.piano{
+	display: flex;
+	position: relative;
+	
+}
+.titleContainer{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+.title{
+	display: flex;
+	font-size: 30px;
+	margin-bottom: 25px;
+	background-color: rgb(63, 16, 106);
+	width: 420px;
+	text-align: center;
+}
+
+.subTitle{
+	text-align: center;
+	margin-bottom: 35px;
+	justify-content: center;
+}
+.img1{
+	width: 100px;
+	height: auto;
+	margin-right: 25px;
+}
+
+.tecla {
+	width: 100px;
+	height: 400px;
+	background-color: white;
+	/* border: 1.5px solid black; */
+	cursor: pointer;
+	border-radius: 10px;
+}
+.tecla:hover{
+	background-color: rgb(165, 41, 153);
+}
+
+.teclaBlack {
+	width: 50px;
+	height: 300px;
+	margin-left: -15px;
+	background-color: black;
+	position: absolute;
+	border-radius: 0 0 10px 10px;
+	/* border: 1.5px solid black; */
+	/* z-index: 1; */
+}
+.n1{
+	left: 90px;
+}
+.n2{
+	left:190px
+}
+.n3{
+	left:390px
+}
+.n4{
+	left: 490px;
+}
+.n5{
+	left: 590px;
+}
+button.active {
+	background-color: rgb(165, 41, 153);
+}

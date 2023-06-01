@@ -1,0 +1,6 @@
+Pasos a Seguir
+
+1. Conseguir los recursos (imagenes, estilos, etc.)
+2. Definir un diseño
+3. Escribir algoritmo (primer evento:clic - segundo evento- teclado)
+4. Hacer pruebas y corregir errores hasta obtener la app deseada
